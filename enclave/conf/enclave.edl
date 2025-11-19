@@ -1,0 +1,15 @@
+enclave {
+
+    trusted 
+    {
+        public int ecall_get_secure_random_init(void);
+
+        public int ecall_is_prime(int n );
+    };
+
+
+    untrusted 
+    {
+        void ocall_print_string( [in, string] const char *str);
+    };
+};
