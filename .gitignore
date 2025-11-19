@@ -1,2 +1,5 @@
-./enclave/conf/enclave_private_test.pem.
+./enclave/conf/enclave_private_test.pem
+./enclave/conf/*.pem
 *.o
+Makefile
+./Makefile
