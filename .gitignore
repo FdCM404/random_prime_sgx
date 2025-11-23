@@ -1,5 +1,9 @@
-./enclave/conf/enclave_private_test.pem
-./enclave/conf/*.pem
+# Ignore object files
 *.o
+
+# Ignore Makefiles (both common capitalizations)
 Makefile
-./Makefile
+makefile
+
+# Ignore PEM files anywhere in the repo
+*.pem
